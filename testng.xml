@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+
+<test name="Send Recieve Email Test">
+    <classes>
+        <class name="tests.TestNg_Annotations" ></class>  
+    </classes>
+</test>
+
+
+<test name="Check Email Test">
+    <classes>
+        <class name="tests.Second_TestNg" ></class>  
+    </classes>
+</test>
+
+<test name="Data Registration Test">
+    <classes>
+        <class name="tests.TestNg_Parameters" ></class>  
+    </classes>
+</test>
+
+<test name="Delete Email Test">
+    <classes>
+        <class name="tests.TestNg_Assertions" ></class>  
+    </classes>
+</test>
+
+</suite>

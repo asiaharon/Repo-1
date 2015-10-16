@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Sample Suite]">
+  <test name="Check Email Test(failed)">
+    <classes>
+      <class name="tests.Second_TestNg">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="checkEmail"/>
+        </methods>
+      </class> <!-- tests.Second_TestNg -->
+      <class name="tests.TestNg_Annotations">
+        <methods>
+          <include name="shotdownSelenium"/>
+          <include name="openConnection"/>
+          <include name="clseBrowser"/>
+          <include name="initialiseSelenium"/>
+          <include name="closeConnection"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- tests.TestNg_Annotations -->
+    </classes>
+  </test> <!-- Check Email Test(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->
